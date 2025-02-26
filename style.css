@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+*{
+    margin: 0;
+
+}
+header{
+    display: flex;
+    padding: 45px;
+    align-items: center;
+    background-color: #FD0076;
+}
+header>img{
+    width: 107px;
+    height: auto;
+    position: relative;
+    top: 10px;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 23px;
+    font-family: Tektur;
+}
+.mainpage>p{
+    font-family: Tektur;
+    display: flex;
+    font-size: 24px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 70px;
+}
+h1{
+    font-family: Marck script;
+    font-size: 48px;
+}
+h2{
+    font-family: Marck script;
+    font-size: 32px;
+}
+.top{
+    display: flex;
+    padding: 100px;
+}
+.top>p{
+    font-family: Pacifico;
+    font-size: 24px;
+}
+video{
+    margin: 0px 41px;
+    width: 518px;
+    height: auto;
+}
+.poddiv{
+    display: flex;
+}
+.name{
+    margin: 0px 62px;
+}
+.name>*{
+    font-family: Marck script;
+}
+.name>h4{
+    font-size: 32px;
+    color: #393939;
+}
+.name>p{
+    font-size: 24px;
+}
+.views{
+    position: relative;
+    top: 20px;
+    font-size: 24px;
+    font-family: Marck script;
+}
+footer{
+    background-color: #BBBBBB;
+}
+h3{
+    display: flex;
+    color: #111111;
+    font-family: Oswald;
+    font-size: 24;
+    align-items: center;
+    justify-content: center;
+    }
+.podzag>*{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
